@@ -24,5 +24,3 @@ if __name__ == '__main__':
     cv2.imwrite('temp/processed_imagen.png', invert_image)
     print(f"Imagen procesada guardada en: {'temp/processed_imagen.png'}")
     transcription = ocr_core('temp/processed_imagen.png')
-
-    
