@@ -68,10 +68,9 @@ class WhisperTranscriber:
                 print("\nPress the spacebar to record again, or Ctrl+C to exit.")
         except KeyboardInterrupt:
             print("Exiting...")
-            return transcription
+            return
 
 
 if __name__ == "__main__":
     transcriber = WhisperTranscriber()
-    transcription = transcriber.run()
-                                                                                                                                                                                                                                                                                           
+    transcriber.run()
